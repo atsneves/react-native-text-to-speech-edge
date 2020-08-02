@@ -1,0 +1,52 @@
+{
+  "name": "react-native-text-to-speech-edge",
+  "title": "React Native Text To Speech Edge",
+  "version": "1.0.1",
+  "description": "TODO",
+  "main": "index.js",
+  "files": [
+    "README.md",
+    "android",
+    "index.js",
+    "ios",
+    "react-native-text-to-speech-edge.podspec"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "echo \"POst Install Tested\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atsneves/react-native-text-to-speech-edge.git",
+    "baseUrl": "https://github.com/atsneves/react-native-text-to-speech-edge"
+  },
+  "keywords": [
+    "react-native",
+    "react-component",
+    "react-native-component",
+    "react",
+    "react native",
+    "mobile",
+    "ios",
+    "android",
+    "ui",
+    "speech neural",
+    "text to speech",
+    "microsoft neural"
+  ],
+  "author": "Anderson Neves <atsneves@gmail.com>",
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "peerDependencies": {
+    "react": "^16.8.1",
+    "react-native": ">=0.60.0-rc.0 <1.0.x"
+  },
+  "devDependencies": {
+    "react": "^16.9.0",
+    "react-native": "^0.61.5"
+  },
+  "bugs": {
+    "url": "https://github.com/atsneves/react-native-text-to-speech-edge/issues"
+  },
+  "homepage": "https://github.com/atsneves/react-native-text-to-speech-edge#readme"
+}
