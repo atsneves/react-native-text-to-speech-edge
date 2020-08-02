@@ -30,8 +30,8 @@ export default class App extends Component<{}> {
   }
 
   playText = () => {
-    console.log('Play Click', TextToSpeechEdge);
-    TextToSpeechEdge.createTextToSpeechByText(
+    
+    createTextToSpeechByText(
       'Olá Matheus, você é Corinthiano?',
       'pt-BR-FranciscaNeural',
       'Your Key In Here',
@@ -46,12 +46,10 @@ export default class App extends Component<{}> {
   };
 
   playTextSSML = () => {
-    console.log('Play Click', TextToSpeechEdge);
-
     const ssmlText =
       '<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="https://www.w3.org/2001/mstts" xml:lang="pt-BR"><voice name="pt-BR-FranciscaNeural"><mstts:express-as style="Cheerful">Olá estamos Testando a SSML, Claro que você está bem empolgado com isso.</mstts:express-as></voice></speak>';
 
-    TextToSpeechEdge.createTextToSpeechBySSML(
+    createTextToSpeechBySSML(
       ssmlText,
       '',
       'Your Key In Here',
