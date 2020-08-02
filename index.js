@@ -1,5 +1,8 @@
-import { NativeModules } from 'react-native';
+import { NativeModules } from 'react-native'
 
 const { TextToSpeechEdge } = NativeModules;
 
+export const { createTextToSpeechBySSML, createTextToSpeechByText } = TextToSpeechEdge
+
 export default TextToSpeechEdge;
+
