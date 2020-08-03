@@ -1,7 +1,7 @@
 {
   "name": "react-native-text-to-speech-edge",
   "title": "React Native Text To Speech Edge",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "TODO",
   "main": "index.js",
   "files": [
@@ -33,7 +33,10 @@
     "ui",
     "speech neural",
     "text to speech",
-    "microsoft neural"
+    "microsoft neural",
+    "react-native-text-to-speech",
+    "azure",
+    "cognitive-services"
   ],
   "author": "Anderson Neves <atsneves@gmail.com>",
   "license": "MIT",

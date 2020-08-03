@@ -1,7 +1,9 @@
 #import <React/RCTBridgeModule.h>
+#import <React/RCTEventEmitter.h>
+
 #import <AVFoundation/AVFoundation.h>
 
-@interface TextToSpeechEdge : NSObject <RCTBridgeModule>
+@interface TextToSpeechEdge : RCTEventEmitter <RCTBridgeModule,AVAudioPlayerDelegate>
 
 @property (nonatomic, strong) AVAudioPlayer *player;
 

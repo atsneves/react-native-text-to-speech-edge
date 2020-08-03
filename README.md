@@ -77,7 +77,7 @@ For transform basic Text To Speech.
 ```javascript
 import { createTextToSpeechByText } from 'react-native-text-to-speech-edge';
 
-// TODO: What to do with the module?
+
 createTextToSpeechByText(
       'Your Text For Speech in Here',
       'pt-BR-FranciscaNeural', //Your Neural Language [https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/language-support#neural-voices]
@@ -98,7 +98,7 @@ For transform Text To Speech using [SSML](https://docs.microsoft.com/en-us/azure
 ```javascript
 import { createTextToSpeechByText } from 'react-native-text-to-speech-edge';
 
-// TODO: What to do with the module?
+
 createTextToSpeechBySSML(
       'Your SSML String in Here',
       'pt-BR-FranciscaNeural', //Your Neural Language (https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/language-support#neural-voices)
@@ -112,4 +112,22 @@ createTextToSpeechBySSML(
         // Your Error String Message
       });
   };
+```
+For STOP audio text
+```javascript
+import { stopEdge } from 'react-native-text-to-speech-edge';
+
+
+stopEdge()
+```
+For listener on Audio Finish
+```
+For STOP audio text
+```javascript
+import TTSEdge from 'react-native-text-to-speech-edge';
+
+
+TTSEdge.addEventListener('ttedge-finish', (event) =>
+  console.log('ttedge-finish', event) // Your Listener To Finish Audio
+);
 ```
