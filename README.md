@@ -72,8 +72,7 @@ The Project Android Needs Min Android 4.4 KitKat (API 19)
 
 ## Usage
 
-For transform basic Text To Speech.
-
+To transform basic Text To Speech.
 ```javascript
 import { createTextToSpeechByText } from 'react-native-text-to-speech-edge';
 
@@ -93,8 +92,7 @@ createTextToSpeechByText(
   };
 ```
 
-For transform Text To Speech using [SSML](https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/speech-synthesis-markup?tabs=csharp).
-
+To transform Text To Speech using [SSML](https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/speech-synthesis-markup?tabs=csharp).
 ```javascript
 import { createTextToSpeechByText } from 'react-native-text-to-speech-edge';
 
@@ -113,16 +111,16 @@ createTextToSpeechBySSML(
       });
   };
 ```
-For STOP audio text
+
+To STOP audio text
 ```javascript
 import { stopEdge } from 'react-native-text-to-speech-edge';
 
 
 stopEdge()
 ```
-For listener on Audio Finish
-```
-For STOP audio text
+
+To listen on Audio Finish event
 ```javascript
 import TTSEdge from 'react-native-text-to-speech-edge';
 
